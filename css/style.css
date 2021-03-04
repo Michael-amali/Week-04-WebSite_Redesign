@@ -346,7 +346,8 @@ hr {
   position: relative;
   background-color: #f8fbfb;
 }
-
+.infrastructure_div {
+}
 .box1 {
   border: 1px solid red;
   position: relative;
@@ -1072,7 +1073,7 @@ hr {
 }
 
 /* hiding what's new FEATURES of ipad */
-@media screen and (max-width: 1167px) {
+@media screen and (min-width: 1168px) {
   .whatsnew_body,
   .whatsnew_main_div .whatsnew_sections_main_div,
   .whatsnew_top_text {
@@ -1082,6 +1083,42 @@ hr {
   .foundation_msg,
   .foundation_review_msg {
     display: none;
+  }
+}
+/* hiding what's new FEATURES of laptop */
+@media screen and (max-width: 1167px) {
+  .whatsnew_body_2,
+  .whatsnew_main_div_2 .whatsnew_sections_main_div_2,
+  .whatsnew_top_text_2 {
+    display: none;
+  }
+  .new_heading_header_2 .header_text_2,
+  .foundation_msg_2,
+  .foundation_review_msg_2 {
+    display: none;
+  }
+}
+
+/* hiding infrastruture FEATURES of ipad */
+@media screen and (min-width: 1168px) {
+  .infrastructure_div {
+    display: none;
+  }
+}
+
+/* hiding infrastruture FEATURES of laptop */
+@media screen and (max-width: 1167px) {
+  .infrastructure_main_container_2,
+  .infrastructure_div_2 {
+    display: none;
+  }
+}
+
+/* start of security, performance, ipad and laptop */
+
+@media screen and (orientation: landscape) {
+  .box8 {
+    padding: 80px 140px;
   }
 }
 
@@ -1319,7 +1356,7 @@ hr {
 }
 
 /* laptop version of what's new  */
-/* laptop version of what's new  */
+/* atart of laptop version of what's new  */
 .whatsnew_body_2 {
 }
 .whatsnew_top_2 {
@@ -1511,3 +1548,90 @@ hr {
   color: #0055dc;
   margin-bottom: 1rem;
 }
+/* end of laptop version of what's new  */
+
+/* start of laptop version of infrastructure 4 div */
+.infrastructure_div_2 {
+  border: chartreuse;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 4em 6em;
+}
+.boxingOne {
+  padding-bottom: 9em;
+}
+.box1_2 {
+  border: 1px solid red;
+  position: relative;
+}
+
+.built_header_heading_2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  color: #424242;
+  font-size: 44px;
+  letter-spacing: 0.4px;
+  line-height: 1em;
+}
+.boxingTwo {
+}
+.box2_2 {
+  border: 1px solid red;
+  position: relative;
+}
+.built_header_subheading_2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  color: #424242;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+}
+
+.box3_2 {
+  border: 1px solid red;
+  position: relative;
+}
+.built_header_subheading_msg_2 {
+  position: relative;
+}
+.boxingFour {
+}
+.box4_2 {
+  border: 1px solid red;
+  position: relative;
+}
+.infra_img_div_2 {
+  position: relative;
+  width: 75%;
+}
+.infra_img_2 {
+  position: relative;
+  top: 5px;
+  left: 80px;
+}
+.boxingThree {
+}
+.box5_2 {
+  border: 1px solid red;
+  position: relative;
+  font-size: 12px;
+}
+.for_infra_subheading_2 {
+  font-size: 15px;
+}
+.box6_2 {
+  border: 1px solid red;
+  position: relative;
+}
+.for_infra_subheading_2 {
+  font-size: 28px;
+}
+.box7_2 {
+  border: 1px solid red;
+  position: relative;
+}
+.infra_para1_2 {
+}
+.infra_para2_2 {
+}
+/* start of laptop version of infrastructure 4 div */
