@@ -188,7 +188,6 @@ hr {
   grid-template-columns: 1fr;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  border-bottom: 2px solid red;
 }
 
 .whatsnew_sections_main_div {
@@ -231,7 +230,6 @@ hr {
   grid-template-columns: 1fr;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  border-bottom: 2px solid red;
 }
 
 .ddos_sections_main_div {
@@ -1376,7 +1374,7 @@ hr {
   grid-template-columns: 1fr;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  border-bottom: 2px solid red;
+
   padding-right: 35px;
 }
 
@@ -1425,7 +1423,7 @@ hr {
   grid-template-columns: 1fr;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  border-bottom: 2px solid red;
+
   padding-right: 35px;
 }
 
@@ -1470,7 +1468,7 @@ hr {
   grid-template-columns: 1fr;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  border-bottom: 2px solid red;
+
   padding-right: 35px;
 }
 
