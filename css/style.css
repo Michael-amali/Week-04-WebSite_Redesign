@@ -1346,10 +1346,37 @@ hr {
 }
 .whatsnew_top_2 {
 }
+.learn_more_div_2 {
+}
 .whatsnew_top_div_2 {
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-rows: 50px;
+}
+.learn_more_div_2 {
+  width: 40%;
+  position: relative;
+  left: 75px;
+}
+.learn_more_text_2 {
+  color: #fff;
+  background-color: #003682;
+  border-radius: 10px;
+  width: 100%;
+  height: 55px;
+  position: relative;
+  top: 50px;
+  left: 60px;
+}
+.learn_more_link_2 {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  left: 50px;
+  top: 13px;
+  font-weight: 16px;
+  font-size: initial;
+  font-weight: 700;
 }
 
 .whatsnew_top_text_2 {
