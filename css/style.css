@@ -10,13 +10,11 @@ body {
 }
 
 .main_div {
-  border: 1px solid rgb(255, 0, 0);
   box-sizing: border-box;
   overflow: hidden;
 }
 
 .header_bar {
-  border: 1px solid black;
   /* height: 30%; */
   display: flex;
   position: relative;
@@ -25,7 +23,6 @@ body {
 .top-nav_logo {
   margin: 15px;
   height: 48px;
-  border: 1px solid black;
 }
 
 hr {
@@ -34,7 +31,6 @@ hr {
 
 .top-nav_icon {
   height: 50px;
-  border: 1px solid tomato;
   width: 50px;
   position: absolute;
   right: 20px;
@@ -58,7 +54,6 @@ hr {
 }
 
 .rethink_div {
-  border: 1px solid red;
 }
 
 .rethink_div h1.rethink-text {
@@ -69,12 +64,10 @@ hr {
   font-size: 32px;
   letter-spacing: 0.4px;
   margin: 4px 0px 24px 16px;
-  border: 1px solid black;
 }
 
 .accelerate_img {
   height: 322px;
-  border: 1px solid #003682;
   width: 568px;
 }
 
@@ -93,7 +86,6 @@ hr {
 }
 
 .sign_up_main_div {
-  border: 1px solid green;
   height: 212px;
   padding: 30px 0px;
   position: relative;
@@ -104,19 +96,16 @@ hr {
 }
 
 .sign_up_text {
-  border: 1px solid tomato;
   width: 75%;
   position: relative;
   left: 75px;
 }
 .sign_up_button {
-  border: 1px solid tomato;
   width: 75%;
   position: relative;
   left: 75px;
 }
 .sign_up_contact_sales {
-  border: 1px solid tomato;
   width: 75%;
   position: relative;
   left: 75px;
@@ -184,7 +173,6 @@ hr {
 }
 
 .whatsnew_top {
-  border: 1px solid salmon;
   border-bottom: 2px solid #424242;
 }
 
@@ -195,7 +183,6 @@ hr {
 
 /* WHAT'S NEW SESSION */
 .whatsnew_main_div {
-  border: 1px solid seagreen;
   height: 240px;
   position: relative;
   display: grid;
@@ -206,11 +193,9 @@ hr {
 }
 
 .whatsnew_sections_main_div {
-  border: 1px solid blueviolet;
 }
 
 .new_heading_header {
-  border: 1px solid rgb(130, 0, 0);
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
@@ -220,7 +205,6 @@ hr {
 }
 
 .whatsnew_foundation_msg {
-  border: 1px solid rgb(130, 0, 0);
 }
 
 .foundation_msg {
@@ -229,7 +213,6 @@ hr {
 }
 
 .foundation_review {
-  border: 1px solid rgb(34, 141, 114);
 }
 
 .foundation_review_msg {
@@ -243,7 +226,6 @@ hr {
 
 /* DDOS SESSION */
 .ddos_main_div {
-  border: 1px solid seagreen;
   height: 240px;
   position: relative;
   display: grid;
@@ -254,22 +236,18 @@ hr {
 }
 
 .ddos_sections_main_div {
-  border: 1px solid blueviolet;
 }
 
 .ddos_heading_header {
-  border: 1px solid rgb(130, 0, 0);
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   font-size: 26px;
 }
 
 .ddos_header_text {
-  border: 1px solid blueviolet;
 }
 
 .ddos_msg_div {
-  border: 1px solid blueviolet;
 }
 .ddos_msg {
   margin-bottom: 2rem;
@@ -291,22 +269,18 @@ hr {
 
 /* CONTROL SESSION */
 .control_main_div {
-  border: 1px solid seagreen;
   height: 280px;
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  border-bottom: 2px solid red;
 }
 
 .control_sections_main_div {
-  border: 1px solid blueviolet;
 }
 
 .control_heading_header {
-  border: 1px solid rgb(130, 0, 0);
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   font-size: 26px;
@@ -317,7 +291,6 @@ hr {
 }
 
 .control_msg_div {
-  border: 1px solid rgb(34, 141, 114);
 }
 .control_msg {
   margin-bottom: 2rem;
@@ -325,7 +298,6 @@ hr {
 }
 
 .control_review {
-  border: 1px solid rgb(34, 141, 114);
 }
 
 .control_review_msg {
@@ -340,7 +312,6 @@ hr {
 /* BUILT SESSION */
 
 .built_container {
-  border: 1px solid red;
   display: grid;
   grid-template-columns: 1fr;
   position: relative;
@@ -349,7 +320,6 @@ hr {
 .infrastructure_div {
 }
 .box1 {
-  border: 1px solid red;
   position: relative;
 }
 
@@ -362,7 +332,6 @@ hr {
 }
 
 .box2 {
-  border: 1px solid red;
   position: relative;
 }
 .built_header_subheading {
@@ -374,7 +343,6 @@ hr {
 }
 
 .box3 {
-  border: 1px solid red;
   position: relative;
 }
 .built_header_subheading_msg {
@@ -382,7 +350,6 @@ hr {
 }
 
 .box4 {
-  border: 1px solid red;
   position: relative;
 }
 .infra_img_div {
@@ -395,7 +362,6 @@ hr {
   left: 80px;
 }
 .box5 {
-  border: 1px solid red;
   position: relative;
   font-size: 12px;
 }
@@ -403,14 +369,12 @@ hr {
   font-size: 15px;
 }
 .box6 {
-  border: 1px solid red;
   position: relative;
 }
 .for_infra_subheading {
   font-size: 28px;
 }
 .box7 {
-  border: 1px solid red;
   position: relative;
 }
 .infra_para1 {
@@ -419,14 +383,12 @@ hr {
 }
 
 .box8 {
-  border: 1px solid red;
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 64px 16px;
 }
 .box8_inner_1 {
-  border: 1px solid red;
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
@@ -463,7 +425,6 @@ hr {
 
 /* j */
 .box8_inner_2 {
-  border: 1px solid red;
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
@@ -502,7 +463,6 @@ hr {
 
 /* k */
 .box8_inner_3 {
-  border: 1px solid red;
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
@@ -550,12 +510,10 @@ hr {
 }
 
 .box9 {
-  border: 1px solid red;
   position: relative;
   padding: 40px 16px;
 }
 .box9_img_container {
-  border: 1px solid blue;
   position: relative;
   padding: 0px 64px;
 }
@@ -567,7 +525,6 @@ hr {
   left: 65px;
 }
 .box10 {
-  border: 1px solid red;
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
@@ -605,14 +562,12 @@ hr {
 
 /* access */
 .box11 {
-  border: 1px solid red;
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 64px 16px;
 }
 .box11_inner_1 {
-  border: 1px solid red;
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
@@ -652,7 +607,6 @@ hr {
 /* gate */
 
 .box11_inner_2 {
-  border: 1px solid red;
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
@@ -690,37 +644,29 @@ hr {
 }
 
 .box12 {
-  border: 1px solid red;
   position: relative;
   padding: 64px 16px 80px;
 }
 .workers_img_div {
-  border: 1px solid red;
   position: relative;
 }
 .workers_img {
-  border: 1px solid red;
   position: relative;
 }
 
 .box13 {
-  border: 1px solid red;
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
-  border: 1px solid red;
 }
 .box13_heading_div {
-  border: 1px solid red;
 }
 .box13_heading_msg {
-  border: 1px solid red;
   margin: 21px 0px 8px;
 }
 .box13_suheading_div {
 }
 .box13_subheading_msg {
-  border: 1px solid red;
   margin: 2px 0px 14px 0px;
   font-size: 30px;
 }
@@ -742,20 +688,17 @@ hr {
   color: #0055dc;
   margin-bottom: 1rem;
   position: relative;
-  border: 1px solid red;
 }
 
 /* automatic c++ */
 
 .box14 {
-  border: 1px solid red;
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 64px 16px;
 }
 .box14_inner_1 {
-  border: 1px solid red;
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
@@ -792,7 +735,6 @@ hr {
 
 /* j */
 .box14_inner_2 {
-  border: 1px solid red;
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
@@ -831,7 +773,6 @@ hr {
 
 /* k */
 .box14_inner_3 {
-  border: 1px solid red;
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
@@ -987,7 +928,6 @@ hr {
 /* hiding navbar */
 @media screen and (min-width: 1168px) {
   .main_div {
-    background-color: rgb(142, 158, 158);
   }
   .top-nav_icon {
     display: none;
@@ -1202,7 +1142,6 @@ hr {
  */
 /* laptop header_features */
 .nav_special_bar1 {
-  border: 1px solid pink;
   position: relative;
   display: flex;
   grid-template-columns: 1fr;
@@ -1211,7 +1150,6 @@ hr {
   font-size: 12px;
 }
 .nav1 {
-  border: 1px solid peru;
   position: relative;
   margin-right: 25px;
   border-bottom: 3px solid transparent;
@@ -1221,7 +1159,6 @@ hr {
   top: 20px;
 }
 .nav2 {
-  border: 1px solid peru;
   position: relative;
   margin-right: 25px;
 }
@@ -1230,7 +1167,6 @@ hr {
   top: 20px;
 }
 .nav3 {
-  border: 1px solid peru;
   position: relative;
   margin-right: 25px;
 }
@@ -1239,7 +1175,6 @@ hr {
   top: 20px;
 }
 .nav4 {
-  border: 1px solid peru;
   position: relative;
   margin-right: 25px;
 }
@@ -1248,7 +1183,6 @@ hr {
   top: 20px;
 }
 .nav5 {
-  border: 1px solid peru;
   position: relative;
   margin-right: 25px;
 }
@@ -1257,7 +1191,6 @@ hr {
   top: 20px;
 }
 .nav6 {
-  border: 1px solid peru;
   position: relative;
   margin-right: 25px;
 }
@@ -1266,7 +1199,6 @@ hr {
   top: 20px;
 }
 .nav7 {
-  border: 1px solid peru;
   position: relative;
   margin-right: 25px;
 }
@@ -1275,7 +1207,6 @@ hr {
   top: 20px;
 }
 .nav8 {
-  border: 1px solid peru;
   position: relative;
   margin-right: 25px;
   left: 140px;
@@ -1286,7 +1217,6 @@ hr {
   top: 20px;
 }
 .subnav1 {
-  border: 1px solid peru;
   position: relative;
   margin-right: 25px;
 }
@@ -1295,7 +1225,6 @@ hr {
   top: 20px;
 }
 .subnav2 {
-  border: 1px solid peru;
   position: relative;
   margin-right: 25px;
 }
@@ -1304,7 +1233,6 @@ hr {
   top: 20px;
 }
 .subnav3 {
-  border: 1px solid peru;
   position: relative;
   margin-right: 25px;
 }
@@ -1352,14 +1280,13 @@ hr {
 /* sign up text 2*/
 .sign_up_text_2 {
   width: 40%;
-  border: 1px solid red;
+
   position: relative;
   left: 75px;
   top: 0px;
 }
 
 .sign_up_text_msg_2 {
-  border: 1px solid violet;
   color: white;
   font-size: 28px;
   margin: 0px;
@@ -1368,14 +1295,13 @@ hr {
 }
 /*sign_up button 2 */
 .sign_up_button_2 {
-  border: 1px solid tomato;
   width: 14%;
   position: relative;
   left: 75px;
 }
 .sign_up_container_2 {
   position: relative;
-  border: 1px solid violet;
+
   color: #fff;
   background-color: #f38020;
   border-radius: 10px;
@@ -1398,14 +1324,13 @@ hr {
 
 /*contact sales button 2  */
 .sign_up_contact_sales_2 {
-  border: 1px solid tomato;
   width: 14%;
   position: relative;
   left: 105px;
 }
 .contact_sales_container_2 {
   position: relative;
-  border: 1px solid violet;
+
   color: #fff;
   background-color: #f38020;
   border-radius: 10px;
@@ -1431,7 +1356,6 @@ hr {
 .whatsnew_body_2 {
 }
 .whatsnew_top_2 {
-  border: 1px solid salmon;
   border-bottom: 2px solid #424242;
 }
 .whatsnew_top_div_2 {
@@ -1632,7 +1556,6 @@ hr {
   padding-bottom: 9em;
 }
 .box1_2 {
-  border: 1px solid red;
   position: relative;
 }
 
@@ -1647,7 +1570,6 @@ hr {
 .boxingTwo {
 }
 .box2_2 {
-  border: 1px solid red;
   position: relative;
 }
 .built_header_subheading_2 {
@@ -1659,7 +1581,6 @@ hr {
 }
 
 .box3_2 {
-  border: 1px solid red;
   position: relative;
 }
 .built_header_subheading_msg_2 {
@@ -1668,7 +1589,6 @@ hr {
 .boxingFour {
 }
 .box4_2 {
-  border: 1px solid red;
   position: relative;
 }
 .infra_img_div_2 {
@@ -1683,7 +1603,6 @@ hr {
 .boxingThree {
 }
 .box5_2 {
-  border: 1px solid red;
   position: relative;
   font-size: 12px;
 }
@@ -1691,14 +1610,12 @@ hr {
   font-size: 15px;
 }
 .box6_2 {
-  border: 1px solid red;
   position: relative;
 }
 .for_infra_subheading_2 {
   font-size: 28px;
 }
 .box7_2 {
-  border: 1px solid red;
   position: relative;
 }
 .infra_para1_2 {
@@ -1772,23 +1689,18 @@ hr {
 }
 
 .box13_2 {
-  border: 1px solid red;
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
-  border: 1px solid red;
 }
 .box13_heading_div_2 {
-  border: 1px solid red;
 }
 .box13_heading_msg_2 {
-  border: 1px solid red;
   margin: 21px 0px 0px;
 }
 .box13_suheading_div_2 {
 }
 .box13_subheading_msg_2 {
-  border: 1px solid red;
   margin: 2px 0px;
   font-size: 32px;
   height: 35px;
@@ -1812,20 +1724,16 @@ hr {
   color: #0055dc;
   margin-bottom: 1rem;
   position: relative;
-  border: 1px solid red;
 }
 
 .box12_2 {
-  border: 1px solid red;
   position: relative;
   padding: 64px 16px 80px;
 }
 .workers_img_div_2 {
-  border: 1px solid red;
   position: relative;
 }
 .workers_img_2 {
-  border: 1px solid red;
   position: relative;
 }
 
@@ -1842,14 +1750,13 @@ hr {
 /* sign up text 2*/
 .sign_up_text_3 {
   width: 40%;
-  border: 1px solid red;
+
   position: relative;
   left: 75px;
   top: 0px;
 }
 
 .sign_up_text_msg_3 {
-  border: 1px solid violet;
   color: white;
   font-size: 28px;
   margin: 0px;
@@ -1858,14 +1765,13 @@ hr {
 }
 /*sign_up button 2 */
 .sign_up_button_3 {
-  border: 1px solid tomato;
   width: 14%;
   position: relative;
   left: 75px;
 }
 .sign_up_container_3 {
   position: relative;
-  border: 1px solid violet;
+
   color: #fff;
   background-color: #f38020;
   border-radius: 10px;
@@ -1888,14 +1794,13 @@ hr {
 
 /*contact sales button 2  */
 .sign_up_contact_sales_3 {
-  border: 1px solid tomato;
   width: 14%;
   position: relative;
   left: 105px;
 }
 .contact_sales_container_3 {
   position: relative;
-  border: 1px solid violet;
+
   color: #fff;
   background-color: #f38020;
   border-radius: 10px;
