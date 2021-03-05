@@ -617,7 +617,7 @@ hr {
   display: grid;
   grid-template-columns: 1fr;
   width: 94%;
-  width: 278px;
+  width: 378px;
   padding-right: 32px;
   height: 320px;
 }
@@ -657,7 +657,7 @@ hr {
   display: grid;
   grid-template-columns: 1fr;
   width: 94%;
-  width: 278px;
+  width: 378px;
   padding-right: 32px;
   height: 320px;
 }
@@ -1115,10 +1115,81 @@ hr {
 }
 
 /* start of security, performance, ipad and laptop */
-
 @media screen and (orientation: landscape) {
   .box8 {
     padding: 80px 140px;
+  }
+}
+
+/* hiding cloudteam FEATURES of ipad */
+@media screen and (min-width: 1168px) {
+  .cloud_team_main_div {
+    display: none;
+  }
+}
+/* hiding cloudteam FEATURES of laptop */
+@media screen and (max-width: 1167px) {
+  .cloud_team_bigger_div_2 .cloud_team_main_div_2 {
+    display: none;
+  }
+}
+
+/* start of access and gateway ipad and laptop */
+@media screen and (orientation: landscape) {
+  .box11 {
+    padding: 80px 90px;
+  }
+  .box11_inner_1 {
+    padding-right: 10px;
+    margin-right: 60px;
+  }
+  .box11_inner_2 {
+    padding-right: 10px;
+  }
+}
+
+/* hiding cloudworkers FEATURES of ipad */
+@media screen and (min-width: 1168px) {
+  .cloud_team_main_div,
+  .box12,
+  .box13 {
+    display: none;
+  }
+}
+
+/* hiding cloudworkers FEATURES of laptop */
+@media screen and (max-width: 1167px) {
+  .bigger_cloudworkers,
+  .cloud_team_main_div_2,
+  .cloud_workers_main_div_2 .box12_2,
+  .cloud_workers_main_div_2 .box13_2 {
+    display: none;
+  }
+}
+
+/* hiding signing up FEATURES of ipad */
+@media screen and (min-width: 1168px) {
+  .contact_signUp,
+  .box15 .sign_heading15_div,
+  .sign_upLink,
+  .sign15_container,
+  .contact_sales15_container {
+    display: none;
+  }
+}
+
+/* hiding signing up FEATURES of laptop */
+@media screen and (max-width: 1167px) {
+  .del_main_sign_3,
+  .sign_up_main_div_3,
+  .sign_up_text_3,
+  .sign_up_text_msg_3,
+  .sign_up_button_3,
+  .sign_up_container_3,
+  .sign_up_button_link_3,
+  .sign_up_contact_sales_3,
+  .contact_sales_container_3 {
+    display: none;
   }
 }
 
@@ -1634,4 +1705,213 @@ hr {
 }
 .infra_para2_2 {
 }
-/* start of laptop version of infrastructure 4 div */
+/* end of laptop version of infrastructure 4 div */
+
+/* start of cloud teams */
+
+.cloud_team_main_div_2 {
+  border: 1px solid yellow;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  padding: 80px 120px;
+}
+
+.box9_2 {
+  display: grid;
+  border: 1px solid black;
+  position: relative;
+}
+
+.box9_img_container_2 {
+}
+.box9_img_2 {
+}
+.box10_2 {
+  border: 1px solid turquoise;
+  display: grid;
+  position: relative;
+  padding-left: 25px;
+}
+
+.box10_heading_div_2 {
+}
+.box10_heading_msg_2 {
+}
+.box10_suheading_div_2 {
+}
+.box10_subheading_msg_2 {
+}
+
+.box10_text_2 {
+}
+.box10_text_msg_div_2 {
+}
+.box10_text_msg_2 {
+}
+
+.box10_learnmore_div_2 {
+}
+.box10_learnmore_2 {
+  text-decoration: none;
+  font-weight: 16px;
+  font-size: initial;
+  font-weight: 700;
+  color: #0055dc;
+  margin-bottom: 1rem;
+  position: relative;
+}
+/* end of cloud teams */
+
+/* start of cloud workers */
+.cloud_workers_main_div_2 {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 4em 6em;
+}
+
+.box13_2 {
+  border: 1px solid red;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  border: 1px solid red;
+}
+.box13_heading_div_2 {
+  border: 1px solid red;
+}
+.box13_heading_msg_2 {
+  border: 1px solid red;
+  margin: 21px 0px 0px;
+}
+.box13_suheading_div_2 {
+}
+.box13_subheading_msg_2 {
+  border: 1px solid red;
+  margin: 2px 0px;
+  font-size: 32px;
+  height: 35px;
+  line-height: 1.4em;
+}
+
+.box13_text_2 {
+}
+.box13_text_msg_div_2 {
+}
+.box13_text_msg_2 {
+}
+
+.box13_learnmore_div_2 {
+}
+.box13_learnmore_2 {
+  text-decoration: none;
+  font-weight: 16px;
+  font-size: initial;
+  font-weight: 700;
+  color: #0055dc;
+  margin-bottom: 1rem;
+  position: relative;
+  border: 1px solid red;
+}
+
+.box12_2 {
+  border: 1px solid red;
+  position: relative;
+  padding: 64px 16px 80px;
+}
+.workers_img_div_2 {
+  border: 1px solid red;
+  position: relative;
+}
+.workers_img_2 {
+  border: 1px solid red;
+  position: relative;
+}
+
+/* start of signing up3 at bottom laptop */
+.sign_up_main_div_3 {
+  border: 1px solid green;
+  display: grid;
+  grid-auto-columns: 1fr 1fr 1fr;
+  display: flex;
+  background-color: #003682;
+  color: white;
+  height: 170px;
+}
+/* sign up text 2*/
+.sign_up_text_3 {
+  width: 40%;
+  border: 1px solid red;
+  position: relative;
+  left: 75px;
+  top: 0px;
+}
+
+.sign_up_text_msg_3 {
+  border: 1px solid violet;
+  color: white;
+  font-size: 28px;
+  margin: 0px;
+  padding: 40px;
+  padding-bottom: 60px;
+}
+/*sign_up button 2 */
+.sign_up_button_3 {
+  border: 1px solid tomato;
+  width: 14%;
+  position: relative;
+  left: 75px;
+}
+.sign_up_container_3 {
+  position: relative;
+  border: 1px solid violet;
+  color: #fff;
+  background-color: #f38020;
+  border-radius: 10px;
+  width: 100%;
+  height: 55px;
+  position: relative;
+  top: 50px;
+  left: 60px;
+}
+.sign_up_button_link_3 {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  left: 50px;
+  top: 13px;
+  font-weight: 16px;
+  font-size: initial;
+  font-weight: 700;
+}
+
+/*contact sales button 2  */
+.sign_up_contact_sales_3 {
+  border: 1px solid tomato;
+  width: 14%;
+  position: relative;
+  left: 105px;
+}
+.contact_sales_container_3 {
+  position: relative;
+  border: 1px solid violet;
+  color: #fff;
+  background-color: #f38020;
+  border-radius: 10px;
+  width: 100%;
+  height: 55px;
+  position: relative;
+  top: 50px;
+  left: 60px;
+}
+.contact_sales_button_link_3 {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  left: 30px;
+  top: 13px;
+  font-weight: 16px;
+  font-size: initial;
+  font-weight: 700;
+}
